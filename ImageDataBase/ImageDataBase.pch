@@ -1,0 +1,20 @@
+//
+//  ImageDataBase.pch
+//  ImageDataBase
+//
+//  Created by rs_macbook on 15/11/11.
+//  Copyright (c) 2015年 rs_macbook. All rights reserved.
+//
+
+#ifndef ImageDataBase_ImageDataBase_pch
+#define ImageDataBase_ImageDataBase_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "FMDB.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Utility.h"
+#define CUTHEIGHT 800.0
+#define CUTWIDTH 1200.0
+#endif
